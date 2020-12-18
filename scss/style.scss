@@ -1,0 +1,339 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Pathway Gothic One', sans-serif; */
+  /* font-family: 'Teko', sans-serif; */
+  color: #023e64;
+}
+
+.barra-nav {
+  margin-right: 0px;
+  border-bottom: 1px solid rgb(165, 165, 158);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+.main {
+  margin-top: 3px;
+}
+.menu-contenedor {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+.menu-items {
+  padding-bottom: 10px;
+}
+ul > li > a {
+  // font-size: 1.5em;
+  font-weight: 600;
+}
+.imagen {
+  display: flex;
+  justify-content: flex-start;
+  width: 400px;
+}
+.logo {
+  width: 180px;
+  margin-left: 10px;
+  padding: 10px;
+}
+nav {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: flex-end;
+
+  margin-right: 30px;
+  font-size: 200px;
+}
+
+ul {
+  display: flex;
+  li {
+    margin-right: 30px;
+    list-style: none;
+    font-size: 20px;
+  }
+}
+
+.item {
+  border: 1px solid black;
+}
+.carrusel {
+  height: calc(100vh - 94px);
+}
+
+.imagen-conteiner1 {
+  background: url(../img/inicio7.jpg) no-repeat center;
+  background-size: cover;
+  height: calc(100vh - 94px);
+  width: 100%;
+}
+
+.imagen-conteiner2 {
+  background: url(../img/inicio2.jpg) no-repeat center;
+  background-size: cover;
+  height: calc(100vh - 94px);
+  width: 100%;
+}
+
+.imagen-conteiner3 {
+  background: url(../img/inicio6.jpg) no-repeat center;
+  background-size: cover;
+  height: calc(100vh - 94px);
+  width: 100%;
+}
+.mensaje-slice {
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 10px;
+  /* bottom: unset;
+    top: 60px; */
+  margin-bottom: 50px;
+}
+.mensaje-slice > h5 {
+  opacity: 1;
+  font-size: 2.5em;
+  color: black;
+  font-weight: 600;
+}
+.mensaje-slice > p {
+  font-size: 2.1em;
+  color: black;
+  font-weight: 600;
+}
+.institucional {
+  margin: 15px 30px;
+}
+.institucional-tit-qh {
+  margin: 20px;
+}
+.institucional-tit-h3 {
+  background-color: #eb6a24;
+}
+.institucional-servicios {
+  margin: 20px;
+  background-color: #eb6a24;
+}
+.institucional-icon {
+  color: black;
+}
+.propiedades {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.prop-tit {
+  padding-left: 10px;
+  font-weight: 400;
+  text-align: center;
+  background-color: #eb6a24;
+  color: white;
+  font-size: 30px;
+}
+
+.propiedades-card-prewiew {
+  display: flex;
+  justify-content: center;
+}
+.pie {
+  background-color: #024677;
+  padding: 20px;
+}
+.contacto-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+i {
+  color: white;
+  font-size: 30px;
+}
+.logo-footer {
+  margin-left: 15px;
+  height: 100px;
+}
+.info-contacto {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+/* Detalle de propiedades 1 */
+.h2-prop1 {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+.venta {
+  display: flex;
+  justify-content: center;
+  width: 644px;
+  margin-bottom: 0;
+}
+.descripcion-precio {
+  display: flex;
+  border: 1px solid grey;
+  width: 255px;
+  justify-content: space-between;
+  font-size: 1.5em;
+  background-color: #eeeeee;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+.venta-titulo {
+  background-color: #16d394;
+  font-weight: 500;
+  color: white;
+  margin: 0px;
+  padding: 0px 8px;
+}
+
+.precio-venta {
+  margin-right: 5px;
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+  .fondo-prop1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .descripcion-precio {
+    margin-bottom: 5px;
+  }
+}
+.descripcion-prop1 {
+  background: url(../img/docta1.jpg) no-repeat center;
+  /* background-size: cover; */
+  height: calc(100vh - 94px);
+  width: 100%;
+}
+
+.descripcion-prop1-2 {
+  background: url(../img/docta/docta2.jpg) no-repeat center;
+  /* background-size: cover; */
+  height: calc(100vh - 94px);
+  width: 100%;
+}
+
+.descripcion-prop1-3 {
+  background: url(../img/docta/docta3.jpg) no-repeat center;
+  /* background-size: cover; */
+  height: calc(100vh - 94px);
+  width: 100%;
+}
+.descripcion-prop1-4 {
+  background: url(../img/docta/docta4.jpg) no-repeat center;
+  /* background-size: cover; */
+  height: calc(100vh - 94px);
+  width: 100%;
+}
+.descripcion-prop1-5 {
+  background: url(../img/docta/docta5.jpg) no-repeat center;
+  /* background-size: cover; */
+  height: calc(100vh - 94px);
+  width: 100%;
+}
+.descripcion-prop1-6 {
+  background: url(../img/docta/docta6.jpg) no-repeat center;
+  /* background-size: cover; */
+  height: calc(100vh - 94px);
+  width: 100%;
+}
+.descripcion-prop1-7 {
+  background: url(../img/docta/docta7.jpg) no-repeat center;
+  /* background-size: cover; */
+  height: calc(100vh - 94px);
+  width: 100%;
+}
+.descripcion-prop1-8 {
+  background: url(../img/docta/docta8.jpg) no-repeat center;
+  /* background-size: cover; */
+  height: calc(100vh - 94px);
+  width: 100%;
+}
+.descripcion-prop1-9 {
+  background: url(../img/docta/docta9.jpg) no-repeat center;
+  /* background-size: cover; */
+  height: calc(100vh - 94px);
+  width: 100%;
+}
+
+.propiedades-imagenes {
+  height: calc(100vh- 208px);
+  /* background-color:#ada6a6; */
+}
+.icono-flecha {
+  background-color: rgb(68, 66, 66);
+  border-radius: 8px;
+  width: 26px;
+  height: 26px;
+}
+.detalle {
+  display: flex;
+  justify-content: center;
+}
+.detalle-prop1 {
+  background-color: #eb6a24;
+  opacity: 0.8;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+  width: 960px;
+  margin-bottom: 5px;
+}
+.h2-detalle {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+.card-text {
+  color: black;
+  margin-top: 30px;
+}
+.card-subtitle {
+  color: black;
+  margin-bottom: 20px;
+}
+.i-detalle {
+  color: #023e64;
+  margin-bottom: 10px;
+}
+.i-detalle-2 {
+  color: #023e64;
+  font-size: 20px;
+}
+// .p-detalle {
+//   color: black;
+//   font-weight: 600;
+// }
+
+.card-tilde {
+  color: #023e64;
+  font-size: 18px;
+}
+
+.i2 {
+  margin-left: 15px;
+}
+.i6 {
+  margin-left: 15px;
+}
+.i8 {
+  margin-left: 15px;
+}
+.servicios-h6 {
+  display: flex;
+  flex-direction: column;
+}
